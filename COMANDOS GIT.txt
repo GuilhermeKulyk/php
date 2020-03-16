@@ -1,0 +1,14 @@
+git init 
+git remote add origin (endereço do repositorio)
+git add --all
+git commit -m 'mensagem do commit'
+git push -u origin master
+
+//se nao der certo
+git add --all
+git commit -m 'mensagem'
+git pull origin master --allow-unrelated-histories
+git push -u origin master
+
+//puxar arquivos
+git pull origin master
